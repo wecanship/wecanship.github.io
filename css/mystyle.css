@@ -61,41 +61,56 @@ color:          #5A5A5A;
 .jumbotron h1 {
 	font-family: 'Pacifico', cursive;
 	padding-top: 10%;
+	color: #b20000;
 }
 
 .jumbotron p {
 	font-family: 'Open Sans', sans-serif;
-
 	
 }
 
 .shop {
-	padding-bottom: 50px;
-	padding-top: 50px;
+	padding-bottom: 2em;
+	padding-top: 2em;
 }
-.shop .row {
-	padding-top: 20px;
-	padding-bottom: 20px;
+.shop .img {
+	padding: 5em;
 }
 
 .details {
-	background-color: #003366;
+	background-color: #5D8AA8;
 	color: white;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
-.details .row {
-	margin: 0 auto;
+.details {
+	background: url('../img/shopping2.jpg');
+	background-size: cover;
+	background-position: center 20%;
+	margin-bottom: 0px;
+	width: 100%;
+	height: auto;
+	
 }
 
-.details li {
-	list-style-type: none;
+.vertical-center {
+	min-height: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
 }
+
+.details .container {
+	background-color: rgba(255,255,255,0.7);
+	color: black;
+	height: auto;
+}
+
 
 .contact {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 .footer {
@@ -104,18 +119,45 @@ color:          #5A5A5A;
 	height: 20px;
 }
 
+h2 {
+	font-family: 'Poppins', sans-serif;
+	padding-bottom: 1rem;
+	font-size: 3rem;
+	color: #21b6a8;
+}
+
+p {
+	font-family: georgia, serif;
+	font-size: 1.7rem;
+}
+
+.shop #before {
+	padding-bottom: 1em;
+}
+
+.shop #after {
+	padding-top: 1em;
+}
+
+.btn {
+	background-color: #21b6a8;
+	color: white;
+}
+
 	/* Custom, iPhone Retina */ 
 	@media only screen and (max-width : 479px) {
 		
 	.jumbotron h1 {
-		font-size: 7vw;
-		padding-left: 1rem;
+		font-size: 8vw;
+		padding-left: 0rem;
 		padding-top: 0%;
 	}	
 	
 	.jumbotron p {
 		font-size: 0px;
 	}
+	
+
 		
 	}
 
@@ -147,6 +189,15 @@ color:          #5A5A5A;
 		font-size: 2rem;
 		padding-left: 2rem;
 	}
+	
+	.shop #before {
+	padding-bottom: 3em;
+	}
+
+	.shop #after {
+	padding-top: 3em;
+	}
+
 	}
 
 	/* Medium Devices, Desktops */
@@ -160,6 +211,14 @@ color:          #5A5A5A;
 		font-size: 2rem;
 	}
 	
+	.shop #before {
+	padding-bottom: 4em;
+	}
+
+	.shop #after {
+	padding-top: 4em;
+	}
+	
 	}
 
 	/* Large Devices, Wide Screens */
@@ -167,6 +226,14 @@ color:          #5A5A5A;
 
 	.jumbotron p {
 		padding-left: 5rem;
+	}
+	
+	.shop #before {
+	padding-bottom: 5em;
+	}
+
+	.shop #after {
+	padding-top: 5em;
 	}
 	
 	}
