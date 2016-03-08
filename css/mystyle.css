@@ -1,0 +1,95 @@
+/* START OF Change the Navbar Colors/Font/Size */
+.navbar .nav > li > a, .navbar .nav > li > a,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+color:          white;                        
+font-size:      1.5rem;
+letter-spacing: 3px;
+}
+
+/* Adjust Menu colors - Normal */
+.navbar .nav > li > a, .navbar .nav > li > a {
+color:          lightgray;
+text-shadow:    none;
+}
+
+/* Adjust Menu colors - Hover */
+.navbar .nav > li > a:hover, .navbar .nav > li > a:hover { 
+color:          white;                      
+text-shadow:    none;
+}
+/* Adjust Menu colors - Active */
+.navbar .nav > li > a:active, .navbar .nav > li > a:active,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+color:          white;
+text-shadow:    none;
+}
+ 
+/* Adjust dropdown Menu items (blue) text color, (yellow) shading and (green) border */
+.dropdown-menu > li > a {
+color:          blue;
+background:     yellow;
+border-bottom:  2px solid green;
+}
+ 
+/* Remove the Hover/Focus Colors  */
+.navbar .nav > li.current-menu-item > a, .navbar .nav > li.current-menu-ancestor > a, 
+.navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
+color:          #5A5A5A;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+/* END OF Change the Navbar Colors/Font/Size */
+
+.red {
+	color: red;
+}
+
+.jumbotron {
+	background: url('../img/shopping.jpg');
+	background-size: cover;
+	background-position: center top;
+	height: 800px;
+	margin-bottom: 0px;
+}
+
+.shop {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.shop .row {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.details {
+	background-color: #003366;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.details .row {
+	margin: 0 auto;
+}
+
+.details li {
+	list-style-type: none;
+}
+
+.contact {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer {
+	margin-bottom: 0px;
+	color: black;
+	height: 20px;
+}

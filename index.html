@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/mystyle.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,16 +20,27 @@
   </head>
   <body>
   
-	<nav class = "navbar navbar-default" role = "navigation">   
-		<div class = "navbar-header">
-			<a class = "navbar-brand" href = "#">We Can Ship</a>
-		 </div>
-		   
-		<div>
+
+	<nav class = "navbar navbar-inverse" role = "navigation">  
+		<div class="container-fluid">
+				<div class="row">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>	
+		<div id="navbar" class="navbar-collapse collapse">
 			<ul class = "nav navbar-nav">
-				<li class = "active"><a href = "#">Home</a></li>
+				<li class = "active"><a href = "#">WeCanShip</a></li>
 				<li><a href = "#">Contact</a></li>
-			 </ul>
+			</ul>
+			<ul class="nav navbar-nav pull-right">
+				<li><a href="#">English</a></li>
+				<li><a href="#">中文</a></li>
+			</ul>			
 		</div>   
 	</nav>
 			
@@ -41,25 +53,54 @@
 	
 	<section class="shop">
 		<div class="container">
+		<center>
 			<h2>Shop from these sites</h2>
-			<p>Now offering products from the following sites! Click to launch the site and remember to save the links so you can make your order below!</p>
+			<p>Now offering products from the following sites! Click to launch the site and remember to save the links so you can make your order below!</p><br>
+			
+			<div class="row">			
+			<div class="col-sm-4" style="padding-left: 10px;  padding-right: 20px;"><a href="http://www.sephora.com/?country_switch=ca" target="_blank"><img src="img/sephora.png" class="img-responsive"></a></div>
+			
+			<div class="col-sm-4" style="padding-left: 20px;  padding-right: 10px;"><a href="http://toryburch.com/canada" target="_blank"><img src="img/tory-burch.jpg" class="img-responsive"></a></div>
+			
+			<div class="col-sm-4" style="padding-left: 20px;  padding-right: 20px;"><a href="http://michaelkors.ca" target="_blank"><img src="img/michael-kors.png" class="img-responsive"></a></div>
+			</div>
+			
+			<div class="row">			
+			<div class="col-sm-4" style="padding-left: 10px;  padding-right: 20px;"><a href="http://thebay.com/Coach-Handbags" target="_blank"><img src="img/coach.jpeg" class="img-responsive"></a></div>
+			
+			<div class="col-sm-4" style="padding-left: 20px;  padding-right: 10px;"><a href="http://lululemon.ca" target="_blank"><img src="img/lululemon.jpg" class="img-responsive"></a></div>
+			
+			<div class="col-sm-4" style="padding-left: 20px;  padding-right: 20px;"><a href="http://aritzia.com" target="_blank"><img src="img/aritzia.png" class="img-responsive"></a></div>
+			</div>			
+			
+		</center>
 		</div>	
 	</section>
 
 	<section class="details">
 		<div class="container">
+		<center>
+		<h2>How it works</h2>
+		
+		<p>(Total Cost of Products + 5% Tax) x 15% Commission + Shipping Cost from Canada to HK = TOTAL</p>
+		<br>
+		<br>
+		
 		<ul>
 			<li>Commission: Only 10% of order total!</li>
 			<li>Tracking number will be provided on all orders over $50</li>
 			<li>Payment accepted via Paypal</li>
 			<li>Orders shipped within 5 business days</li>
 		</ul>	
+		</center>
 		</div>
 	</section>
 
 	<section class="contact">
 		<div class="container">
-			<h2>Submit your order!</h2>
+		<center>
+			<h2>Get a Quote!</h2>
+			<br>
 			<form class = "form-horizontal" role = "form" id="contactForm" action="//formspree.io/joycetse1001@gmail.com" method="post">
 						
 				<div class = "form-group">
@@ -89,14 +130,19 @@ Example:
 1. Nars Blush - Outlaw $38, http://www.sephora.com/blush-P2855?skuId=1774587" required></textarea>
 					</div>	
 				</div>
-				<input type="submit" value="send">
+				<button class="btn btn-default" type="submit" value="Send">Submit</button>
 				<input type="hidden" name="_subject" value="New Wish List!" />
 				<input type="hidden" name="_cc" value="estynnej@gmail.com" />
 			</form>
+		</center>	
 		</div>		
 	</section>	
-	
-	<br>
+
+	<div class="footer">
+	<center>
+	<p>&copy; WeCanShip 2016</p>
+	</center>
+	</div>
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
