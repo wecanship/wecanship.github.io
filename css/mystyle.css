@@ -77,7 +77,7 @@ color:          #5A5A5A;
 .tagline {
 	padding-top: 3em;
 	padding-bottom: 2em;
-	background-color: #b3ccff;
+	background-color: #ccccff;
 }
 
 .shop {
@@ -147,6 +147,10 @@ p {
 	font-size: 2rem;
 }
 
+#tagline2 {
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size: 1.5rem;
+}
 
 .shop #before {
 	padding-bottom: 1em;
