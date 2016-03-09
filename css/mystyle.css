@@ -161,6 +161,12 @@ p {
 	color: white;
 }
 
+.thanks h1 {
+	font-family: 'Pacifico', cursive;
+	padding-top: 10%;
+	color: #b20000;
+}
+
 	/* Custom, iPhone Retina */ 
 	@media only screen and (max-width : 479px) {
 		
