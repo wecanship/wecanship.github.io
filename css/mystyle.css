@@ -47,6 +47,11 @@ color:          #5A5A5A;
 
 /* END OF Change the Navbar Colors/Font/Size */
 
+.row {
+	padding-right: 0px;
+	margin-right: 0px;
+}
+
 .jumbotron {
 	background: url('../img/shopping.jpg');
 	background-size: cover;
@@ -67,6 +72,12 @@ color:          #5A5A5A;
 .jumbotron p {
 	font-family: 'Open Sans', sans-serif;
 	
+}
+
+.tagline {
+	padding-top: 3em;
+	padding-bottom: 2em;
+	background-color: #b3ccff;
 }
 
 .shop {
@@ -131,6 +142,12 @@ p {
 	font-size: 1.7rem;
 }
 
+#tagline {
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size: 2rem;
+}
+
+
 .shop #before {
 	padding-bottom: 1em;
 }
@@ -154,7 +171,7 @@ p {
 	}	
 	
 	.jumbotron p {
-		font-size: 0px;
+		font-size: 0rem;
 	}
 	
 
@@ -172,7 +189,7 @@ p {
 	
 	.jumbotron p {
 		font-size: 0rem;
-		padding-left: 3rem;		
+		padding-left: 4rem;		
 	}
 		
 	}
@@ -186,7 +203,7 @@ p {
 	}	
 	
 	.jumbotron p {
-		font-size: 2rem;
+		font-size: 1.7rem;
 		padding-left: 2rem;
 	}
 	
