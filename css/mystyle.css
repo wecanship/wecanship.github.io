@@ -160,8 +160,17 @@ p {
 	padding-top: 1em;
 }
 
-.btn {
+.btn,
+.btn:visited {
 	background-color: #21b6a8;
+	color: white;
+}
+
+.btn:active,
+.btn:hover,
+.btn:focus,
+.btn:active:focus {
+	background-color: #17756c;
 	color: white;
 }
 
